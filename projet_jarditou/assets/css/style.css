@@ -1,135 +1,307 @@
-                  /*Page d'acceuil*/
+                 * {
+                     list-style: none;
+                     padding: 0;
+                     margin: 0;
+                     box-sizing: border-box;
+                 }
 
-header {
 
-    max-width: 90%;
 
-    height: auto;
 
-    padding:1px 2px 1px 2px;
+                 /*Page d'acceuil*/
 
-    border:5px;
+                 header {
 
-    margin:20px 0 20px 0;
+                     max-width: 90%;
 
-}
+                     height: auto;
 
-#logo {
+                     padding: 1px 2px 1px 2px;
 
-    width: 300px;
+                     border: 5px;
 
-    height: auto;
+                     margin: 20px 0 20px 0;
 
-    padding:1px 2px 1px 2px;
+                 }
 
-    border:5px; 
+                 #logo {
 
-    margin:2px 0 2px 0;
+                     width: 300px;
 
-    top: 60px;
+                     height: auto;
 
-    position: relative;
+                     padding: 1px 2px 1px 2px;
 
-}
+                     border: 5px;
 
-div {
+                     margin: 2px 0 2px 0;
 
-    font-size: 20pt;
+                     top: 60px;
 
-    top: 20px;
+                     position: relative;
 
-    left: 850px;
+                 }
 
-    position: relative
+                 div {
 
-}
+                     font-size: 20pt;
 
-nav {
+                     top: 20px;
 
-    width:1820px ;
+                     left: 850px;
 
-    height: auto;
+                     position: relative
+                 }
 
-    padding: 10px 0 10px 10;
+                 nav {
 
-    border:5px solid black;
- 
-    margin:10px 0 3px 0;
+                     width: 1820px;
 
-    background-color: black;
+                     height: auto;
 
+                     padding: 10px 0 10px 10;
 
-}
+                     border: 5px solid black;
 
-.nava {
+                     margin: 10px 0 3px 0;
 
-    color: aliceblue;
-    
-}
+                     background-color: black;
 
-.li1 ul {
 
-    display: flex;
+                 }
 
-}
+                 .nava {
 
-.li1 a {
-    display:block; 
+                     color: aliceblue;
 
-    min-width: 80px; 
-    
-}
+                 }
 
-#promo {
+                 .lia ul {
 
-    width: 1820px;
+                     display: flex;
 
-    height: auto;
+                 }
 
-    padding:1px 2px 1px 2px;
+                 .lia a {
+                     display: block;
 
-    border:5px; 
+                     text-transform: uppercase;
 
-    margin:2px 0 2px 0;
+                     font-weight: bold;
 
+                     text-decoration: none;
 
-}
+                     min-width: 100px;
 
-h1 {
+                 }
 
-    font-size: 30pt;
-}
+                 #promo {
 
-h2 {
+                     width: 1820px;
 
-    font-size: 17pt;
-}
+                     height: auto;
 
-p {
+                     padding: 1px 2px 1px 2px;
 
-    line-height: 2em;
-}
+                     border: 5px;
 
-.li2 ul {
+                     margin: 2px 0 2px 0;
 
-    display: flex;
 
-}
+                 }
 
-.li2 a {
-    display:block; 
+                 h1 {
 
-    min-width: 130px; 
-    
-}
+                     font-size: 30pt;
+                     line-height: 3em;
+                 }
 
+                 h2 {
 
+                     font-size: 17pt;
+                 }
 
-                                 /*Page Tableau*/
+                 p {
 
+                     line-height: 3em;
+                 }
 
+                 .lib ul {
 
+                     display: flex;
 
+                 }
 
+                 .lib a {
+                     display: block;
 
-table
+                     text-transform: uppercase;
+
+                     font-weight: bold;
+
+                     text-decoration: none;
+
+                     min-width: 190px;
+
+                 }
+
+                 #menu {
+                     display: flex;
+
+                 }
+
+                 #menu h1 {
+                     width: 100vh;
+                 }
+
+                 article {
+                     width: 70%;
+                 }
+
+                 #aside {
+                     background: #d2d2d2;
+                     width: 30%;
+                 }
+
+
+
+
+                 /*Page Tableau*/
+
+
+                 table,
+                 td,
+                 img {
+
+                     width: 100px;
+
+                     height: auto;
+
+                     padding: 1px 2px 1px 2px;
+
+                     border: 5px solid black;
+
+                     margin: 2px 0 2px 0;
+
+
+                 }
+
+                 table {
+
+                     position: relative;
+                     top: 50px;
+
+
+                 }
+
+
+                 img {
+
+                     border: none;
+
+                 }
+
+                 #brun {
+
+                     color: #A52A2A;
+                 }
+
+                 #chrome {
+
+                     color: #C0C0C0;
+                 }
+
+                 #vert {
+
+                     color: #2E8B57;
+                 }
+
+                 #menu {
+                     display: flex;
+
+                 }
+
+                 #menu h1 {
+                     width: 1vh;
+                     height: auto;
+
+
+
+                 }
+
+                 article {
+                     width: 70%;
+                 }
+
+                 #asidez {
+                     background: #d2d2d2;
+                     width: 30%;
+                     height: auto;
+                     position: relative;
+                     left: 1300px;
+                     bottom: 500px;
+
+                 }
+
+                 #tableau {
+
+                     position: relative;
+                     bottom: 30px;
+                     left: 10px;
+
+                 }
+
+
+
+                 /* Page Contact */
+
+                 #contact {
+
+                     width: 100px;
+
+                     height: auto;
+
+                     padding: 1px 2px 1px 2px;
+
+                     border: 0px;
+
+                     margin: 2px 0 2px 0;
+
+                     position: relative;
+
+                     bottom: 40px;
+
+                     left: 15px;
+
+                     text-shadow:3px 1px 2px #8B0000;
+
+
+                 }
+
+
+                 form {
+                     width: none;
+
+                     height: auto;
+
+                     padding: 10px 20px 10px 20px;
+
+                     border: 5px solid black;
+
+                     margin: 20px 0 20px 0;
+
+                     position: relative;
+
+                     top: 25px;
+
+                     box-shadow: 3px 1px 5px #8B0000;
+
+                 }
+
+                 #envoyer:focus {
+
+                    color: #2E8B57;
+
+                    
+                 }
+

@@ -5,85 +5,92 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>La qualité depuis 70 ans</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-   <header> 
+    <header>
 
-      <img src="assets/img/jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou" width="350" height="115"><br>
+        <img src="assets/img/jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou" id="logo">
+        <div>Tout le jardin<br>
 
-   </header>  
+    </header>
 
-      <div>La qualité depuis 70 ans</div>
-    
-      <nav>
+
+
+    <nav class="lia">
 
         <ul>
-            <li><a href="index.html" title="Accueil"><small>Accueil</small></a></li>
-            <li><a href="tableau.html" title="Tableau"><small>Tableau</small></a></li>
-            <li><a href="contact.html" title="Contact"><small>Contact</small></a></li>
+            <li><a href="index.html" title="Accueil" class="nava">Accueil</a></li>
+            <li><a href="tableau.html" title="Tableau" class="nava">Tableau</a></li>
+            <li><a href="contact.html" title="Contact" class="nava">Contact</a></li>
         </ul>
     </nav>
 
-    <img src="assets/img/promotion.jpg" alt="Promotion" title="promotion" width="1300" height="250"><br>
+    <img src="assets/img/promotion.jpg" alt="Promotion" title="promotion" id="promo"><br>
 
-        <section>
+    <section id="menu">
 
-    <h1>Contact</h1><br>
-<br>
-   <form action="http://bienvu.net/script.php" method="GET">
-    <fieldset>
-    <legend>Vos coordonnées</legend>
-    <label for="nom">Votre Nom: </label><input type="text" name="nom" id="nom"><br>
-    <label for="prénom">Votre Prénom: </label><input type="text" name="prénom" id="prénom"><br>
-    
-    <label for="sexe"> Sexe</label><input type="radio" name="sexe" id="sexe" value="féminin"> Féminin
-    <input type="radio" name="sexe" value="masculin"> Masculin<br>
+        <h1 id="contact">Contact</h1><br>
+        <br>
+        <form action="http://bienvu.net/script.php" method="GET">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <label for="nom">Votre Nom: </label><input type="text" name="nom" id="nom"><br>
+                <label for="prénom">Votre Prénom: </label><input type="text" name="prénom" id="prénom"><br>
 
-    <label for="datedenaissance">Date de naissance: </label><input type="text" name="datedenaissance" id="datedenaissance" placeholder="jj/mm/aaaa"><br>
+                <label for="sexe">Sexe</label><input type="radio" name="sexe" id="sexe" value="féminin">  Féminin
+                <input type="radio" name="sexe" value="masculin"> Masculin<br>
 
-    <label for="codepostal">Code postal: </label><input type="text" name="codepostal" id="codepostal"><br>
+                <label for="datedenaissance">Date de naissance: </label><input type="text" name="datedenaissance"
+                    id="datedenaissance" placeholder="jj/mm/aaaa"><br>
 
-    <label for="adresse">Adresse: </label><input type="text" name="adresse" id="adresse"><br>
+                <label for="codepostal">Code postal: </label><input type="text" name="codepostal" id="codepostal"><br>
 
-    <label for="ville">Ville: </label><input type="text" name="ville" id="ville"><br>
+                <label for="adresse">Adresse: </label><input type="text" name="adresse" id="adresse"><br>
 
-    <label for="email">Email: </label><input type="text" name="email" id="email" placeholder="dave.lopes@afpa.fr"><br>
+                <label for="ville">Ville: </label><input type="text" name="ville" id="ville"><br>
 
-    </fieldset>
+                <label for="email">Email: </label><input type="text" name="email" id="email"
+                    placeholder="dave.lopes@afpa.fr"><br>
 
-    <fieldset>
-    <legend>Votre demande</legend>
-    <select name="sujet">
-        <option>Veuillez séléctionner un sujet</option>
-        <option>Mes commandes</option>
-        <option>Question sur un produit</option>
-        <option>Réclamation</option>
-        <option>Autres</option>
-    </select><br>
+            </fieldset>
 
-    <label for="question"> Votre question: </label><textarea name="commentaire" id="question" rows="7" cols="50"></textarea><br>
+            <fieldset>
+                <legend>Votre demande</legend>
+                <select name="sujet">
+                    <option>Veuillez séléctionner un sujet</option>
+                    <option>Mes commandes</option>
+                    <option>Question sur un produit</option>
+                    <option>Réclamation</option>
+                    <option>Autres</option>
+                </select><br>
+
+                <label for="question"> Votre question: </label><textarea name="commentaire" id="question" rows="7"
+                    cols="50"></textarea><br>
 
 
-    <input type="checkbox" name="accepter" value="accepter">J'accepte le traitement informatique d ce formulaire<br>
-    <input type="submit" value="Envoyer">
-    <input type="submit" value="Annuler">
-    </fieldset>
-</form>
+                <input type="checkbox" name="accepter" value="accepter"> J'accepte le traitement informatique d ce
+                formulaire<br>
+                <input type="submit" value="Envoyer" id="envoyer">
+                <input type="submit" value="Annuler" id="annuler">
+            </fieldset>
+        </form>
 
-        </section>       
 
-<nav>
-    <ul>
-        <li><a href="Mentionlégale.html" title="Mentionlégale">Mention légale</a></li>
-        <li><a href="Horaires.html" title="Horaires">Horaires</a></li>
-        <li><a href="Plandusite.html" title="Plandusite">Plan du site</a></li>
-    </ul>
-</nav>
+    </section>
+
+    <nav class="lib">
+        <ul>
+            <li><a href="Mentionlégale.html" title="Mentionlégale" class="nava">Mention légale</a></li>
+            <li><a href="Horaires.html" title="Horaires" class="nava">Horaires</a></li>
+            <li><a href="Plandusite.html" title="Plandusite" class="nava">Plan du site</a></li>
+        </ul>
+    </nav>
 
 </body>
 
