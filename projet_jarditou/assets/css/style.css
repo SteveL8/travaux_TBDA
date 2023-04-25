@@ -110,6 +110,27 @@
 
                  }
 
+                
+
+                #menu {
+                    display: flex;
+
+                }
+
+                #menu h1 {
+                    width: 100vh;
+                }
+
+                article {
+                    width: 70%;
+                }
+
+                #aside {
+
+                   background: #d2d2d2;
+                    width: 30%;
+                }
+
                  h1 {
 
                      font-size: 30pt;
@@ -129,6 +150,7 @@
                  .lib ul {
 
                      display: flex;
+                     
 
                  }
 
@@ -145,23 +167,6 @@
 
                  }
 
-                 #menu {
-                     display: flex;
-
-                 }
-
-                 #menu h1 {
-                     width: 100vh;
-                 }
-
-                 article {
-                     width: 70%;
-                 }
-
-                 #aside {
-                     background: #d2d2d2;
-                     width: 30%;
-                 }
 
 
 
@@ -169,87 +174,68 @@
                  /*Page Tableau*/
 
 
-                 table,
-                 td,
-                 img {
+                 #menu {
 
-                     width: 100px;
-
-                     height: auto;
-
-                     padding: 1px 2px 1px 2px;
-
-                     border: 5px solid black;
-
-                     margin: 2px 0 2px 0;
-
-
+                    display: flex;
                  }
+
+                 menu h1{
+                    width: 100vh;
+                }
+
 
                  table {
 
-                     position: relative;
-                     top: 50px;
+                
+                    width: 100px;
+                    height: auto;
+                    padding: 0px 0px 0px 0px;
+                    border: 5px solid black;
+                    margin: 80px 0 2px 0;
+                    position: relative;
+                    right: 962px;
 
 
+                    
+                    }
+
+                    
+                 
+
+                 tr, img {
+
+                    width: 100px;
+                    height: auto;
+                    padding: 0px 0px 0px 0px;
+                    border: 5px solid black;
+                    margin: 80px 0 2px 0;
+                    position: relative;
                  }
 
+                th, td {
+
+                    border: solid;
+                 }
 
                  img {
 
-                     border: none;
-
-                 }
-
-                 #brun {
-
-                     color: #A52A2A;
-                 }
-
-                 #chrome {
-
-                     color: #C0C0C0;
-                 }
-
-                 #vert {
-
-                     color: #2E8B57;
-                 }
-
-                 #menu {
-                     display: flex;
-
-                 }
-
-                 #menu h1 {
-                     width: 1vh;
-                     height: auto;
-
-
-
-                 }
-
-                 article {
-                     width: 70%;
+                    border: none;
                  }
 
                  #asidez {
-                     background: #d2d2d2;
-                     width: 30%;
-                     height: auto;
-                     position: relative;
-                     left: 1300px;
-                     bottom: 500px;
 
+                    background: #d2d2d2;
+                     width:20%;
+                     
                  }
 
-                 #tableau {
+                 
 
-                     position: relative;
-                     bottom: 30px;
-                     left: 10px;
 
-                 }
+
+                 
+
+                
 
 
 
@@ -273,7 +259,7 @@
 
                      left: 15px;
 
-                     text-shadow:3px 1px 2px #8B0000;
+                     text-shadow: 3px 1px 2px #8B0000;
 
 
                  }
@@ -292,16 +278,52 @@
 
                      position: relative;
 
+                     right: 845px;
+
                      top: 25px;
 
                      box-shadow: 3px 1px 5px #8B0000;
 
                  }
 
-                 #envoyer:focus {
+                 #envoyer:hover {
 
-                    color: #2E8B57;
+                     color: #2E8B57;
+
+                 }
+
+                 #annuler:hover {
+
+                     color: red;
+                 }
+
+
+                 #asideb {
+                     background: #d2d2d2;
+                     width: 30%;
+                     height: auto;
+                     position: relative;
+                     right: 18px;
+
+                 }
+
+
+
+
+                 
+                 
+
+
+                 
+                   
+                 
 
                     
-                 }
+
+                 
+
+
+                 
+
+
 
