@@ -10,6 +10,8 @@
 
                  /*Page d'acceuil*/
 
+                        /* Je ne sais pas pourquoi mais "left" et "right" sont inversés tout comme "top" et "bottom" */
+
                  header {
 
                      max-width: 90%;
@@ -50,12 +52,12 @@
 
                      left: 850px;
 
-                     position: relative
+                     position: relative;
                  }
 
                  nav {
 
-                     width: 1820px;
+                     width: 1900px;
 
                      height: auto;
 
@@ -97,7 +99,7 @@
 
                  #promo {
 
-                     width: 1820px;
+                     width: 1900px;
 
                      height: auto;
 
@@ -110,26 +112,26 @@
 
                  }
 
-                
 
-                #menu {
-                    display: flex;
 
-                }
+                 #menu {
+                     display: flex;
 
-                #menu h1 {
-                    width: 100vh;
-                }
+                 }
 
-                article {
-                    width: 70%;
-                }
+                 #menu h1 {
+                     width: 100vh;
+                 }
 
-                #aside {
+                 article {
+                     width: 70%;
+                 }
 
-                   background: #d2d2d2;
-                    width: 30%;
-                }
+                 #aside {
+
+                     background: #d2d2d2;
+                     width: 30%;
+                 }
 
                  h1 {
 
@@ -150,7 +152,7 @@
                  .lib ul {
 
                      display: flex;
-                     
+
 
                  }
 
@@ -176,70 +178,88 @@
 
                  #menu {
 
-                    display: flex;
+                     display: flex;
                  }
 
-                 menu h1{
-                    width: 100vh;
-                }
+                 menu h1 {
+                     width: 100vh;
+                 }
 
 
                  table {
 
-                
-                    width: 100px;
-                    height: auto;
-                    padding: 0px 0px 0px 0px;
-                    border: 5px solid black;
-                    margin: 80px 0 2px 0;
-                    position: relative;
-                    right: 962px;
+
+                     width: 100px;
+                     height: auto;
+                     padding: 0px 0px 0px 0px;
+                     border: 5px solid black;
+                     margin: 80px 0 2px 0;
+                     position: relative;
+                     right: 962px;
 
 
-                    
-                    }
 
-                    
-                 
-
-                 tr, img {
-
-                    width: 100px;
-                    height: auto;
-                    padding: 0px 0px 0px 0px;
-                    border: 5px solid black;
-                    margin: 80px 0 2px 0;
-                    position: relative;
                  }
 
-                th, td {
 
-                    border: solid;
+
+
+                 tr,
+                 img {
+
+                     width: 100px;
+                     height: auto;
+                     padding: 0px 0px 0px 0px;
+                     border: 5px solid black;
+                     margin: 80px 0 2px 0;
+                     position: relative;
+                 }
+
+                 th,
+                 td {
+
+                     border: solid;
                  }
 
                  img {
 
-                    border: none;
+                     border: none;
                  }
 
                  #asidez {
 
-                    background: #d2d2d2;
-                     width:20%;
-                     
+                     background: #d2d2d2;
+                     width: 20%;
+
                  }
 
-                 
 
 
 
-                 
 
-                
+
+
+
 
 
 
                  /* Page Contact */
+
+            .log {   width: 300px;
+
+                     height: auto;
+
+                     padding: 1px 2px 1px 2px;
+
+                     border: 5px;
+
+                     margin: 2px 0 2px 0;
+
+                     top: 60px;
+
+                     position: relative;
+                  }
+
 
                  #contact {
 
@@ -309,21 +329,167 @@
 
 
 
+                 @media screen and (max-width: 768px) {
+                     
+                                               /* Page d'Accueil et les selecteur communs au 3 fichier HTML */
 
-                 
-                 
+                     html {
+                         font-size: 100%;
+                     }
 
+                     html,body{
+                        width:100%;
+                        overflow-x:hidden;
+                        }
 
-                 
-                   
-                 
+                     #logo {
+                         max-width: 100%;
+                         height: auto;
+                        
+                     }
+                      
+                     /* Je n'arrive pas a intégré "<div>Tout le jardin</div>" a mon domcument sous le format 768px
+                        j'ai essayer: text-align:center;
+                                      text-align:left;
+                                      position:relative;
+                                      left:***px;
+                                      right:***px;
+                        Puis finalement j'ai juste changer la taille du texte et j'ai réussi a le déplacé */
+                     div {
+                         font-size: 11pt;
+                         position: relative;
+                         left:300px;
+                         top: 35px
+                         
 
                     
-
-                 
-
-
-                 
+                        }
 
 
+                     nav {
+                         max-width: 100%;
+                         font-size: 8pt;
+                       
 
+
+                     }
+
+                     .lia a {
+
+                         position: relative;
+                         left: 70px;
+
+                     }
+
+
+
+                     #promo {
+                         max-width: 100%;
+                         height: auto;
+                     }
+
+                     h1 {
+                         text-align: center;
+                         font-size: 2rem;
+                     }
+
+                     #aside {
+
+                         visibility: hidden;
+                     }
+
+                     #entreprise {
+                         position: relative;
+                         left: 140px;
+                         font-size: 16pt;
+                         line-height: 10px;
+                     }
+
+                     #qualite {
+                         position: relative;
+                         left: 155px;
+                         top: 10px;
+                         font-size: 16pt;
+                     }
+
+                     #devis {
+                         position: relative;
+                         left: 130px;
+                         top: 10px;
+                         font-size: 16pt;
+                     }
+
+                     p {
+                         font-size: 10pt;
+                         text-align: center;
+                         position: relative;
+                         left: 55px;
+                     }
+
+                     #mention {
+                        font-size: 7pt;
+                     }
+
+                     #horaires {
+                        font-size: 7pt;
+                        position: relative;
+                        right: 30px;
+                     }
+
+                     #plan {
+                        font-size: 7pt;
+                        position: relative;
+                        right: 90px;
+                     }
+                    
+                                                           /* Page Tableau */
+
+                    #tableau {
+                        font-size: 25px;
+                        position: relative;
+                        left: 150px;
+                    }
+
+                    #menu {
+                        display: flex;
+                    }
+
+                    table  {
+                        max-width: 100%;
+                        height: auto;
+                        padding: 0px 0px 0px 0px;
+                        border: 3px none;
+                        margin: 80px 0 0px 0;
+
+                        position: relative;
+                        left: 1px;
+                    }
+
+                    tr {
+                        max-width: 100%;
+                        height: auto;
+                        position: relative;
+                        right: 110px;
+                    }
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+
+                    th, td {
+                        max-width:100% ;
+                        height: auto;
+                    }
+
+                            /* Je n'ai pas réussi a redimensionner mon tableau correctement je l'ai juste déplacé pour faire 
+                               en sorte qu'il rentre dans le format, je suppose que j'ai du faire  des erreur dans mon css  */
+
+                                   
+
+                                                           /* Page Contact */
+
+                    .log {
+                        left: 100px;
+                        bottom: 100px;
+                    }
