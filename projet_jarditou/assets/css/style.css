@@ -1,495 +1,273 @@
-                 * {
-                     list-style: none;
-                     padding: 0;
-                     margin: 0;
-                     box-sizing: border-box;
-                 }
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
+                                 /*Page d'acceuil et selecteur communs aux fichier HTML*/
 
+                    /* Je ne sais pas pourquoi mais "left" et "right" sont inversés tout comme "top" et "bottom" */          
 
-                 /*Page d'acceuil*/
 
-                        /* Je ne sais pas pourquoi mais "left" et "right" sont inversés tout comme "top" et "bottom" */
+header {
 
-                 header {
+    display: flex;
+}
 
-                     max-width: 90%;
+#logo {
 
-                     height: auto;
+    width: 20%;
+    height: auto;
 
-                     padding: 1px 2px 1px 2px;
 
-                     border: 5px;
+}
 
-                     margin: 20px 0 20px 0;
+div {
+    display: flex;
+    width: 80%;
+    height: auto;
+    font-size: 20pt;
+    text-align: center;
+    position: relative;
+    top: 85px;
 
-                 }
 
-                 #logo {
+}
 
-                     width: 300px;
+nav {
 
-                     height: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px 0 10px 0;
+    border: 5px solid black;
+    margin: 10px 0 5px 0;
+    background-color: black;
 
-                     padding: 1px 2px 1px 2px;
+}
 
-                     border: 5px;
+.nava {
 
-                     margin: 2px 0 2px 0;
+    color: aliceblue;
 
-                     top: 60px;
+}
 
-                     position: relative;
+.lia ul, .lib ul {
 
-                 }
+    display: flex;
 
-                 div {
+}
 
-                     font-size: 20pt;
+.lia a {
 
-                     top: 20px;
+    display: flex;
+    position: relative;
+    bottom: 5px;
+    left: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    min-width: 100px;
 
-                     left: 850px;
+}
 
-                     position: relative;
-                 }
+#promo {
 
-                 nav {
+    width: 100%;
+    height: 350px;
 
-                     width: 1900px;
+}
 
-                     height: auto;
+#menu {
 
-                     padding: 10px 0 10px 10;
+    display: flex;
 
-                     border: 5px solid black;
+}
 
-                     margin: 10px 0 3px 0;
+#menu h1 {
 
-                     background-color: black;
+    font-size: 22pt;
+    position: relative;
+    left: 60px;
+    
+}
 
+article {
+    width: 70%;
+    height: auto;
+    padding: 10px 0 10px 0;
+    border: 3px;
+    margin: 40px 0px 10px 0px;
+    position: relative;
+    position: relative;
+    right: 100px;
+}
 
-                 }
+aside {
+  
+    background: #d2d2d2;
+    width: 30%;
+}
 
-                 .nava {
+h2 {
+    font-size: 17pt;
+    line-height: 3em;
 
-                     color: aliceblue;
+}
 
-                 }
+p {
 
-                 .lia ul {
+    line-height: 2em;
+}
 
-                     display: flex;
+          /* Création d'une 2éme class pour la liste du bas de la page car les mots néccécite
+             un espace entre-eux plus important que ceux du haut */
+.lib a {
 
-                 }
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    min-width: 200px;
 
-                 .lia a {
-                     display: block;
+}
 
-                     text-transform: uppercase;
 
-                     font-weight: bold;
+                                /* Page Tableau */
 
-                     text-decoration: none;
 
-                     min-width: 100px;
+table {
 
-                 }
+    display: flex;
+    max-width: 70%;
+    height: auto;
+    padding: 1px 0 1px 0;
+    border: 3px solid;
+    margin: 40px 0 10px 0;
+    position: relative;
+    right: 80px;
 
-                 #promo {
+}
 
-                     width: 1900px;
+img {
 
-                     height: auto;
+    width: 100px;
+}
+      /* La colonne ne s'affiche pas a droite mais collé a mon tableau, j'ai decider de créé un id pour 
+         pouvoir la deplacé sans géner les autre page  */
+#aside {
 
-                     padding: 1px 2px 1px 2px;
+    background: #d2d2d2;
+    width: 30%;
+    position: relative;
+    left: 735px;
+}
 
-                     border: 5px;
+tr, th, td {
 
-                     margin: 2px 0 2px 0;
+    border: 3px solid black ;
+}
 
+#brun {
+    color: #A52A2A;
+}
 
-                 }
+#chrome {
+    color: #C0C0C0;
+}
 
+#vert {
+    color:#006400;
+}
 
 
-                 #menu {
-                     display: flex;
+                                /* Page Contact */
 
-                 }
 
-                 #menu h1 {
-                     width: 100vh;
-                 }
+form {
+    width: 70%;
+    height: auto;
+    padding: 10px 0 10px 0;
+    border: 2px solid;
+    margin: 50px 1000px 10px 0;
+    position: relative;
+    right: 100px;
+    box-shadow: 3px 1px 5px #8B0000;
 
-                 article {
-                     width: 70%;
-                 }
+}
 
-                 #aside {
+#envoyer:hover {
+      color: #2E8B57;
+}
 
-                     background: #d2d2d2;
-                     width: 30%;
-                 }
+#annuler:hover {
+      color: red;
+}
 
-                 h1 {
 
-                     font-size: 30pt;
-                     line-height: 3em;
-                 }
 
-                 h2 {
-
-                     font-size: 17pt;
-                 }
-
-                 p {
-
-                     line-height: 3em;
-                 }
-
-                 .lib ul {
-
-                     display: flex;
-
-
-                 }
-
-                 .lib a {
-                     display: block;
-
-                     text-transform: uppercase;
-
-                     font-weight: bold;
-
-                     text-decoration: none;
-
-                     min-width: 190px;
-
-                 }
-
-
-
-
-
-                 /*Page Tableau*/
-
-
-                 #menu {
-
-                     display: flex;
-                 }
-
-                 menu h1 {
-                     width: 100vh;
-                 }
-
-
-                 table {
-
-
-                     width: 100px;
-                     height: auto;
-                     padding: 0px 0px 0px 0px;
-                     border: 5px solid black;
-                     margin: 80px 0 2px 0;
-                     position: relative;
-                     right: 962px;
-
-
-
-                 }
-
-
-
-
-                 tr,
-                 img {
-
-                     width: 100px;
-                     height: auto;
-                     padding: 0px 0px 0px 0px;
-                     border: 5px solid black;
-                     margin: 80px 0 2px 0;
-                     position: relative;
-                 }
-
-                 th,
-                 td {
-
-                     border: solid;
-                 }
-
-                 img {
-
-                     border: none;
-                 }
-
-                 #asidez {
-
-                     background: #d2d2d2;
-                     width: 20%;
-
-                 }
-
-
-
-
-
-
-
-
-
-
-
-                 /* Page Contact */
-
-            .log {   width: 300px;
-
-                     height: auto;
-
-                     padding: 1px 2px 1px 2px;
-
-                     border: 5px;
-
-                     margin: 2px 0 2px 0;
-
-                     top: 60px;
-
-                     position: relative;
-                  }
-
-
-                 #contact {
-
-                     width: 100px;
-
-                     height: auto;
-
-                     padding: 1px 2px 1px 2px;
-
-                     border: 0px;
-
-                     margin: 2px 0 2px 0;
-
-                     position: relative;
-
-                     bottom: 40px;
-
-                     left: 15px;
-
-                     text-shadow: 3px 1px 2px #8B0000;
-
-
-                 }
-
-
-                 form {
-                     width: none;
-
-                     height: auto;
-
-                     padding: 10px 20px 10px 20px;
-
-                     border: 5px solid black;
-
-                     margin: 20px 0 20px 0;
-
-                     position: relative;
-
-                     right: 845px;
-
-                     top: 25px;
-
-                     box-shadow: 3px 1px 5px #8B0000;
-
-                 }
-
-                 #envoyer:hover {
-
-                     color: #2E8B57;
-
-                 }
-
-                 #annuler:hover {
-
-                     color: red;
-                 }
-
-
-                 #asideb {
-                     background: #d2d2d2;
-                     width: 30%;
-                     height: auto;
-                     position: relative;
-                     right: 18px;
-
-                 }
-
-
-
-                 @media screen and (max-width: 768px) {
+                       /* Web responsive */
+ 
+@media screen and (max-width: 768px) {
                      
-                                               /* Page d'Accueil et les selecteur communs au 3 fichier HTML */
+                                /* Page d'Accueil et les selecteur communs aux 3 fichier HTML */
 
-                     html {
-                         font-size: 100%;
-                     }
+html {
+    font-size: 100%;
+}
+              /* "overflow-x" Instruction trouver sur internet qui me permet de masquer (avec hidden) le dépassement
+                  de la balise "body" */
+html,body{
+    width:100%;
+    overflow-x:hidden;
+}
 
-                     html,body{
-                        width:100%;
-                        overflow-x:hidden;
-                        }
+header {
+    display: flex;
+}
 
-                     #logo {
-                         max-width: 100%;
-                         height: auto;
-                        
-                     }
-                      
-                     /* Je n'arrive pas a intégré "<div>Tout le jardin</div>" a mon domcument sous le format 768px
-                        j'ai essayer: text-align:center;
-                                      text-align:left;
-                                      position:relative;
-                                      left:***px;
-                                      right:***px;
-                        Puis finalement j'ai juste changer la taille du texte et j'ai réussi a le déplacé */
-                     div {
-                         font-size: 11pt;
-                         position: relative;
-                         left:300px;
-                         top: 35px
-                         
+aside, #aside {
+    visibility: hidden;
+}
 
-                    
-                        }
+#logo {
+    max-width: 100%;
+    height: auto;
+}
 
+div {
+    font-size:1rem ;
+}
 
-                     nav {
-                         max-width: 100%;
-                         font-size: 8pt;
-                       
+nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
 
+.nava {
+    font-size: 8pt;
+}
 
-                     }
+.lia ul, .lib ul {
 
-                     .lia a {
+    display: flex;
 
-                         position: relative;
-                         left: 70px;
+}
 
-                     }
+.lia a {
+    
+    
+}
 
+#promo {
+    max-width: 100%;
+    height: auto;
+}
 
 
-                     #promo {
-                         max-width: 100%;
-                         height: auto;
-                     }
-
-                     h1 {
-                         text-align: center;
-                         font-size: 2rem;
-                     }
-
-                     #aside {
-
-                         visibility: hidden;
-                     }
-
-                     #entreprise {
-                         position: relative;
-                         left: 140px;
-                         font-size: 16pt;
-                         line-height: 10px;
-                     }
-
-                     #qualite {
-                         position: relative;
-                         left: 155px;
-                         top: 10px;
-                         font-size: 16pt;
-                     }
-
-                     #devis {
-                         position: relative;
-                         left: 130px;
-                         top: 10px;
-                         font-size: 16pt;
-                     }
-
-                     p {
-                         font-size: 10pt;
-                         text-align: center;
-                         position: relative;
-                         left: 55px;
-                     }
-
-                     #mention {
-                        font-size: 7pt;
-                     }
-
-                     #horaires {
-                        font-size: 7pt;
-                        position: relative;
-                        right: 30px;
-                     }
-
-                     #plan {
-                        font-size: 7pt;
-                        position: relative;
-                        right: 90px;
-                     }
-                    
-                                                           /* Page Tableau */
-
-                    #tableau {
-                        font-size: 25px;
-                        position: relative;
-                        left: 150px;
-                    }
-
-                    #menu {
-                        display: flex;
-                    }
-
-                    table  {
-                        max-width: 100%;
-                        height: auto;
-                        padding: 0px 0px 0px 0px;
-                        border: 3px none;
-                        margin: 80px 0 0px 0;
-
-                        position: relative;
-                        left: 1px;
-                    }
-
-                    tr {
-                        max-width: 100%;
-                        height: auto;
-                        position: relative;
-                        right: 110px;
-                    }
-
-                    img {
-                        max-width: 100%;
-                        height: auto;
-                    }
-
-                    th, td {
-                        max-width:100% ;
-                        height: auto;
-                    }
-
-                            /* Je n'ai pas réussi a redimensionner mon tableau correctement je l'ai juste déplacé pour faire 
-                               en sorte qu'il rentre dans le format, je suppose que j'ai du faire  des erreur dans mon css  */
-
-                                   
-
-                                                           /* Page Contact */
-
-                    .log {
-                        left: 100px;
-                        bottom: 100px;
-                    }
+   
