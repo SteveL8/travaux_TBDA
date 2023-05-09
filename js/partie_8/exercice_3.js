@@ -1,8 +1,12 @@
-var n, no;
-
-n = prompt("Entrez un prémier nombre :")
-var n = parseInt(n);
-no = prompt("Entrez un deuxième nombre :")
-var no = parseInt(no);
-
-document.write("La somme est :" + (n + no) + "  et la moyenne est :" + (n + no / 2))
+var s=0;
+var u="";
+var m=parseFloat(u)/s;
+ 
+ 
+while(u!="0"){
+  u=prompt("Entrez votre nombre" + "\n" + "Entrez 0 pour terminer");
+  s=s+parseFloat(u);
+}
+ 
+console.log("La somme maximal vaut  " + " " + (Math.max(u)) );
+console.log("La somme minimal vaut  " + " " + (Math.min(u)) );
