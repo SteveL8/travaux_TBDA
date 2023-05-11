@@ -7,7 +7,7 @@ while (p!="")
 {
     p = prompt("Saisissez le prénom N°" + no + "\n" +"ou Clic sur Annuler pour arrêter le saisie.");
 
-    console.log("Nombre de prénom" + no + "et le prénom rentrez est " + p);
+    console.log("Nombre de prénom" + no + "  et le prénom rentrez est " + p);
 
     no++;
 
