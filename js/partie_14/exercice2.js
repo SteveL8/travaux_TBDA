@@ -1,47 +1,24 @@
 console.log("Connecté")
-var nombre = (Math.floor(Math.random()*100));
-console.log(nombre);
+var n = Math.random().toFixed(2) * 100;
+n = Math.floor(n);
+
+//console.log(n);
 
 document.querySelector("#label1").onclick = verif();
 
 function verif(){
-    var ni = document.getElementById("textBox1").Value;
 
-    if(ni < nombre){
+    var ni = document.getElementById("textBox1").value;
+
+    if (ni < n){
         alert("Trop petit");
     }
-     if(ni > nombre){
-      alert("Trop grand");
+    else if (ni > n){
+        alert("Trop grand");
     }
-    if(ni == nombre){
-       alert("Bravo vous avez trouvé le nombre magique");
+    else if(ni == n){
+        alert("Bravo vous avez trouver le nombre magique ! ");
     }
-}
-
-
-
-/*
-function random(min, max){
-    return Math.random () * (max - min) + min;
-}
-
-document.querySelector('#button1').onclick = function(){
-    
-    return verif();
 
 }
-
-var utilisateur = document.querySelector('#button1') 
-var random = function(){}
-
-if (random < utilisateur)
-{
-    alert("Trop petit")
-
-}
-else if(random >utilisateur)
-{
-    alert("Trop grand");
-}
-    */
 
