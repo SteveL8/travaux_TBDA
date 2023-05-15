@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form method="POST">
+        <fieldset>
+        <legend>Vos coordonées :</legend>
+         <p><span>*  </span>Ces zones sont obligatoire pour envoyer le formulaire.</p>
+      <label for="societe">Société: </label><input type="text" name="societe" id="societe"><span>     *</span><br><br>
+      <label for="pac">Personne à contacter: </label><input type="text" name="societe" id="societe"><span>     *</span><br><br>
+      <label for="adresse" class="l"> Adresse de l'entrprise: </label><textarea name="adresse" id="adresse" rows="7" cols="50"></textarea><br><br>
+      <label for="code">Code Postal: </label><input type="text" name="code" id="code"><span>     *</span><br><br>
+      <label for="ville">Ville: </label><input type="text" name="ville" id="ville"><br><br>
+      <label for="mail">E-mail: </label><input type="text" name="mail" id="mail"><span>     *</span><br><br>
+      <label for="tel">Téléphone: </label><input type="text" name="tel" id="tel"><br><br>
+      <label for="adresse" class="l"> Sélectionnez l'environnement technique du projet: </label><select name="tech">
+                                                                                           <option>Choisissez</option>
+                                                                                           <option>Access</option>
+                                                                                           <option>Java</option>
+                                                                                           <option>Delphi</option>
+                                                                                           <option>Windev</option>
+                                                                                           <option>Visual Basic</option>
+                                                                                           <option>Power Builder</option>
+                                                                                           <option>Internet</option>
+                                                                                           <option>Intranet</option>
+                                                                                           <option>Window NT</option>
+                                                                                           <option>Unix</option>
+                                                                                           <option>SQL Server</option>
+                                                                                           <option>Oracle</option>
+                                                                                           <option>Autres</option>
+                                                                                     </select>                                   
+      <textarea name="tech" id="tech" rows="7" cols="50" id="t"></textarea><br>
+      <input type="submit" value="Envoyer" class="sub">
+      <input type="submit" value="Annuler" class="sub">
+   </fieldset>
+</body>
+</html>
