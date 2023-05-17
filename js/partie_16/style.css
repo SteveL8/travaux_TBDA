@@ -30,7 +30,10 @@ legend{
 
 span{
     color: red;
+    position: relative;
+    left: 50px;
 }
+
 
 p{
     font-size: 18pt;
@@ -40,13 +43,15 @@ p{
     padding: 10px 0 40px 0;
 }
 
-label{
-    font-size: 18pt;
-}
 
-.l{
-    position: relative;
-    bottom: 80px;
+
+label{
+    font-size: 15pt;
+    display: inline-block;
+    font-weight: bold;
+    padding: 30px 0px 20px 80px;
+    width: 250px;
+
 }
 
 select{
@@ -58,11 +63,48 @@ select{
 
 .sub{
     width: 150px;
-    height: auto;
+    height: 30px;
     position: relative;
     left: 500px;
     top: 50px;
+    font-size: 14pt;
 }
+
+
+input{
+    height: auto;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    left: 45px;
+}
+
+#adresse{
+    position: relative;
+    left: 45px;
+}
+
+#fora{
+    position: relative;
+    bottom: 55px;
+}
+
+
+
+#projet{
+    position: relative;
+    right: 115px;
+}
+
+#choix{
+    position: relative;
+    right: 180px;
+    top: 60px;
+    height: 40px;
+    font-size: 14pt;
+}
+
+
 
 
 
